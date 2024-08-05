@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    {% block title %} {% endblock title %}
 </head>
 <body>
-    <h1>Home</h1>
-
-    <ul>
-        <li><a href="/jose">Página - Jose</a></li>
-        <li><a href="">Italo</a></li>
-    </ul>
+    {% block content %}
+    
+    {% endblock content %}
 </body>
 </html>

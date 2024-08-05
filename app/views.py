@@ -10,3 +10,8 @@ def home(request):
 def jose(request):
 
     return render(request, 'jose.html')
+
+def italo(request):
+
+    return render(request, 'italo.html')
+
